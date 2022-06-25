@@ -1,3 +1,215 @@
-body{
-    background-color: blue;
+html{
+    width: 0px;
+    height: 0px;
+}
+body{display: flex;
+    justify-content: center;
+    width: 416px;
+    font-family: 'Roboto', sans-serif;
+}
+.conteudo{
+    width: 416px;
+    height: 100%;
+    position: relative;
+}
+.topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 13px 0px; color:#a8a8a8;
+    position: fixed;
+    top: 0px;  
+    box-sizing: border-box; 
+}
+.barrafim{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    padding-left: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 13px 0px; color:#a8a8a8;
+    position: fixed;
+    bottom: 0px;   
+    z-index: 1;
+    box-sizing: border-box;
+}
+.escrevaaqui{
+    font-size: 400;
+    font-style: italic;
+    color: #000000;
+}
+.notificacaoenvio{
+    padding-top: 5px;
+    color: #505050;
+    font-size: 300;
+}
+.logo{
+    margin-left: 22px;
+    width: 75px;
+    height: 53px;
+}
+.icone{
+    width: 25px;
+    height: 25px;
+    margin-right: 22px;
+}
+.areaconversa{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-top: 24px;
+    width: 100%;
+    height: 100%;
+    background-color: #E5E5E5;
+    overflow: scroll;
+    word-break: break-all;
+}
+.caixaconversa{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+.tempo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    padding-bottom: 3px;
+}
+.textoconversa{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 14px;
+    font-weight: 400;
+    box-sizing: border-box;
+    word-wrap: break-word;
+   
+}
+/* Tela estado 2----------------------------- */
+.telaestado2{
+    display: flex;
+    height: 100%;
+    position: absolute; 
+    top: 0;
+    position: fixed; 
+    top: 0;  
+    z-index: 3;
+}
+
+.faixapreta{
+    width: 120px;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.5;
+    z-index: 2;
+}
+.fomaenvio{
+    width: 296px;
+    height: 100%;
+    background-color: #ffffff;
+    z-index: 2;
+    padding-left: 8px;
+    box-sizing: border-box;
+}
+/*Dentro de forma de envio--------------------*/
+.display{
+    display: flex;
+    align-items: center;
+   
+}
+.titulo{
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    width: 296px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 3px;
+}
+.titulocont{
+    display: flex;
+    justify-content:center;
+    width: 296px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 3px;
+}
+.todos{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 8px;
+}
+.pessoa{
+    margin-left: 8px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.visibilidade{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 66px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.publico{
+    margin-left: 8px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.privado{
+    margin-left: 8px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.img{
+    width: 25px;
+    height: 25px;
+}
+
+.displayselect{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content:end;
+}
+
+/*CLASSES TRABALHÁVEIS------------------------------*/
+.escondido{
+    display: none;
+}
+.escolhido{
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+}
+.corrosa{
+    background-color: #FFDEDE;
+}
+.corcinza{
+    background-color: #DCDCDC;
 }
