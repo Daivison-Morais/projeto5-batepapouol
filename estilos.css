@@ -26,10 +26,18 @@ body {
 }
 
 .input {
+    display: flex;
     outline-style: none;
     border-style: none;
+    font-size: 16px;
     width: 200px;
-    height: 40px;
+    height: 30px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    flex-wrap: wrap;
+}
+.notificacaoenvio{
+    font-size: 12px;
 }
 
 .barrafim {
@@ -86,7 +94,7 @@ body {
     padding-top: 24px;
     width: 100%;
     height: 100%;
-    background-color: #E5E5E5;
+    background-color: #eeeeee;
     overflow: scroll;
     word-break: break-all;
 }
@@ -95,6 +103,7 @@ body {
     display: flex;
     align-items: center;
     width: 100%;
+    min-height: 40px;
     padding-left: 8px;
     padding-right: 8px;
     margin-top: 4px;
@@ -106,28 +115,18 @@ body {
     word-break: break-all;
 }
 
-.tempo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80px;
-    height: 40px;
-    padding-bottom: 3px;
-}
-
 .textoconversa {
     display: flex;
     align-items: center;
     width: 100%;
-    padding-left: 8px;
     padding-top: 3px;
     padding-bottom: 3px;
     font-size: 14px;
     font-weight: 400;
     box-sizing: border-box;
+    word-break: break-all;
     flex-wrap: wrap;
 }
-
 
 /* Tela estado 2----------------------------- */
 .telaestado2 {
@@ -255,15 +254,19 @@ body {
 }
 .margin{
     margin-right: 4px;
-    padding-top: 3px;
-    padding-bottom: 3px;
+   
 
 }
 .nomeetodos {
     font-weight: bolder;
     margin-right: 4px;
-    padding-top: 3px;
-    padding-bottom: 3px;
+}
+
+.tempo {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+
 }
 
 .quebra {
